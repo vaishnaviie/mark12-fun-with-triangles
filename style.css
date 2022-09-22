@@ -1,0 +1,253 @@
+
+:root{
+    --color-black:black;
+    --color-137:rgb(247, 199, 137);
+    --color-84:rgb(155, 130, 84);
+    --color-186:rgb(220, 186, 186);
+    --color-119:rgb(173, 119, 119);
+}
+
+body{
+    background-color: var(--color-137);
+    font-size: 1.5rem;
+}
+
+.text-deco{
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border: 3px solid var(--color-84);
+    border-radius: 0.3rem;
+    color: var(--color-black);
+    background-color:var(--color-186);
+}
+
+.text-deco:hover{
+    background-color: var(--color-119);
+    border: 3px solid var(--color-black);
+}
+
+
+#nav{
+    height: auto;
+    width:95%;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+#area-container{
+
+    height: auto;
+    width: 35%;
+    margin: auto;
+}
+
+#area-sub-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: 60%;
+
+}
+
+.input-parameters{
+    width: 50%;
+    height: 1.5rem;
+    border: 3px solid var(--color-84);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#btn-area{
+    width: 50%;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 3px solid var(--color-84);
+    border-radius: 0.5rem;
+    background-color:var(--color-186);
+}
+
+#btn-area:hover{
+    background-color: var(--color-119);
+    border: 3px solid var(--color-black);
+}
+
+#area-output-box{
+    width: 60%;
+    font-size: 1.7rem;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+/* isTriangle */
+
+#is-tri-h1{
+    text-align: left;
+    margin-left: 11%;
+}
+
+#isTriangleContainer{
+    height: auto;
+    width: 35%;
+    margin: auto;
+}
+#isTriangleSubContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: 60%;
+}
+
+label{
+    margin-top: 2%;
+}
+
+.angles{
+    width: 50%;
+    height: 1.5rem;
+    border: 3px solid var(--color-84);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+#is-triangle-submit-btn{
+    width: 50%;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 3px solid var(--color-84);
+    border-radius: 0.5rem;
+    background-color:var(--color-186);
+}
+
+#is-triangle-submit-btn:hover{
+    background-color: var(--color-119);
+    border: 3px solid var(--color-black);
+}
+
+
+#is-triangle-output-box{
+    width: 20%;
+    font-size: 1.7rem;
+    margin:auto;
+    font-weight: bold;
+}
+
+/* hypo */
+
+
+#hypo-container{
+
+    height: auto;
+    width: 35%;
+    margin: auto;
+}
+
+#hypo-sub-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: 60%;
+
+}
+
+.input-hypo{
+    width: 50%;
+    height: 1.5rem;
+    border: 3px solid var(--color-84);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#btn{
+    width: 52%;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 3px solid var(--color-84);
+    border-radius: 0.5rem;
+    background-color:var(--color-186);
+}
+
+#btn:hover{
+    background-color: var(--color-119);
+    border: 3px solid var(--color-black);
+}
+
+#hypo-output-box{
+
+    font-size: 1.7rem;
+    margin: auto;
+    font-weight: bold;
+}
+
+/* quiz */
+
+h1{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+#form{
+    height: auto;
+    width: 35%;
+    margin: auto;
+}
+
+
+.questions{
+    margin-bottom: 4rem;
+}
+
+#submit-btn{
+    width: 50%;
+    height: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 3px solid var(--color-84);
+    border-radius: 0.5rem;
+    background-color:var(--color-186);
+}
+
+
+
+#submit-btn:hover{
+    background-color: var(--color-119);
+    border: 3px solid var(--color-black);
+}
+
+#btn-div{
+    width: 20%;
+    margin: auto;
+}
+
+#quiz-output-box{
+    width: 20%;
+    font-size: 1.7rem;
+    margin: auto;
+    font-weight: bold;
+    text-align: left;
+}
+
+.active-block{
+    text-decoration: underline;
+}
