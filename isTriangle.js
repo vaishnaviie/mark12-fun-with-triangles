@@ -8,13 +8,26 @@ function calculateSum(a1,a2,a3){
 }
 
 function isTriangle(){
-    var sum =calculateSum(Number(angles[0].value),Number(angles[1].value),Number(angles[2].value));
+    // var sum =calculateSum(Number(angles[0].value),Number(angles[1].value),Number(angles[2].value));
 
-    if(sum===180){
-        showOutput("Yahh! It is a triangle");
+    var a1=Number(angles[0].value);
+    var a2=Number(angles[1].value);
+    var a3=Number(angles[2].value);
+
+    if(a1>0&&a2>0&&a3>0){
+
+        var sum= calculateSum(a1,a2,a3);
+
+        if(sum===180){
+            showOutput("Yahh! It is a triangle");
+        }
+        else{
+            showOutput("Oh oh! It's not a triangle");
+        }
     }
+
     else{
-        showOutput("Oh oh! It's not a triangle");
+        showOutput("Invalid input. Enter positive values.");
     }
 }
 

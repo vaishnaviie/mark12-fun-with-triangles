@@ -8,10 +8,20 @@ function helper(base,height){
 }
 
 function calculateArea(base,height){
-    var equation=helper((inputParameters[0].value),Number(inputParameters[1].value))
-    var convertedEquation=parseFloat(equation).toFixed(2);
-    outputBox.innerText=`The area is ${convertedEquation} 
-    cm²` ; 
+    // var equation=helper((inputParameters[0].value),Number(inputParameters[1].value))
+
+    var base=Number(inputParameters[0].value);
+    var height=Number(inputParameters[1].value);
+    if(base>0 && height>0){
+        var equation=helper(base,height);
+        var convertedEquation=parseFloat(equation).toFixed(2);
+        outputBox.innerText=`The area is ${convertedEquation} 
+        cm²` ;
+    }
+ 
+    else{
+        outputBox.innerText=`Invalid input. Enter positive values.` ;
+    }
  
 }
 
